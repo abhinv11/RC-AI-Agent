@@ -1,4 +1,5 @@
 # RC Agent + Markdown RAG
+## Deployed Link (version 0.1) - [RC AI Agent](https://rc-ai-agent.streamlit.app/)
 
 Thread-aware Reinforced Concrete (RC) beam design assistant built with LangGraph, Streamlit, and retrieval from uploaded markdown.
 
