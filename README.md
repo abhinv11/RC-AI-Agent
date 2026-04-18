@@ -307,7 +307,7 @@ python -c "import sys; sys.path.insert(0, 'iiti_project'); import rc_tools, RC_a
 
 Before pushing:
 
-1. ensure `.env` is not committed (already ignored)
+1. ensure `.env` is not committed
 2. run compile/import sanity checks
 3. verify Streamlit app starts cleanly
 4. verify one end-to-end design prompt
