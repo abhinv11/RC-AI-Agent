@@ -15,7 +15,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 load_dotenv()
 
 
-llm = ChatOpenAI(model="gpt-4o-mini")
+llm = ChatOpenAI(model=os.getenv("OPENAI_CHAT_MODEL", "gpt-5-mini"))
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 
